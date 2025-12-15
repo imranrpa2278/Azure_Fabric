@@ -424,7 +424,7 @@
 							"headers": {},
 							"url": "https://prod-25.uaenorth.logic.azure.com:443/workflows/02c5cb947231402daa79b1f575907f6d/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=d3YRmPAMwQqTKBJoI3sBvfORMYAYJgc2u5VQ6Tenh9s",
 							"body": {
-								"value": "{\n    \"pipelineName\" : \"@{pipeline().Pipeline}\"\n    \"status\": \"Succeeded\"\n    \"runid\" : \"@{pipeline().RunId}\",\n    \"time\":\"@{utcNow()}\" \n}",
+								"value": "{\n    \"pipelineName\" : \"@{pipeline().Pipeline}\",\n    \"status\": \"Succeeded\",\n    \"runid\" : \"@{pipeline().RunId}\",\n    \"time\":\"@{utcNow()}\" \n}",
 								"type": "Expression"
 							}
 						}
@@ -453,7 +453,7 @@
 							"headers": {},
 							"url": "https://prod-25.uaenorth.logic.azure.com:443/workflows/02c5cb947231402daa79b1f575907f6d/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=d3YRmPAMwQqTKBJoI3sBvfORMYAYJgc2u5VQ6Tenh9s",
 							"body": {
-								"value": "{\n    \"pipelineName\" : \"@{pipeline().Pipeline}\"\n    \"status\": \"Fail\"\n    \"runid\" : \"@{pipeline().RunId}\",\n    \"time\":\"@{utcNow()}\" \n}",
+								"value": "{\n    \"pipelineName\" : \"@{pipeline().Pipeline}\",\n    \"status\": \"Fail\",\n    \"runid\" : \"@{pipeline().RunId}\",\n    \"time\":\"@{utcNow()}\" \n}",
 								"type": "Expression"
 							}
 						}
@@ -886,7 +886,7 @@
 					"recurrence": {
 						"frequency": "Hour",
 						"interval": 15,
-						"startTime": "2025-12-15T17:15:00",
+						"startTime": "2025-12-16T18:59:00",
 						"timeZone": "India Standard Time"
 					}
 				}
