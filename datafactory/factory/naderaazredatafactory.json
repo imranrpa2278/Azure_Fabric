@@ -1,0 +1,9 @@
+{
+	"name": "naderaazredatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b4ec780a-3bee-4387-8004-75beabc64298",
+		"tenantId": "38fde531-2ce7-466c-9849-540b7f122384"
+	}
+}
