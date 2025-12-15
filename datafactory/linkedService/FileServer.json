@@ -1,0 +1,17 @@
+{
+	"name": "FileServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": " C:\\Program Files\\Microsoft Integration Runtime\\5.0\\Shared",
+			"userId": "admin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzZjEwMGYyZi03NzIyLTQxZjgtYTc3NC1jOTY2Y2EyY2Y2OTIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "OnPrem2AzureintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
